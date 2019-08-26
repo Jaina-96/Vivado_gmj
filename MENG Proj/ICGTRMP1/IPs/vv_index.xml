@@ -1,0 +1,260 @@
+<?xml version="1.0"?>
+<Index Version="1" Minor="0">
+	<Repository value="d:/MENG Proj/ICGTRMP1/IPs">
+	</Repository>
+	<IP>
+		<VLNV value="xilinx.com:user:clk:5">
+		</VLNV>
+		<DisplayName value="clk_v5">
+		</DisplayName>
+		<Description value="My new AXI IP">
+		</Description>
+		<CoreRevision value="11">
+		</CoreRevision>
+		<ComponentPath value="CLK_V5_2/ip_repo/clk_5/component.xml">
+		</ComponentPath>
+		<Families>
+			<Family name="artix7">
+				<Part status="Pre-Production" name="ALL">
+				</Part>
+			</Family>
+		</Families>
+		<Taxonomies>
+			<Taxonomy value="AXI_Peripheral">
+			</Taxonomy>
+		</Taxonomies>
+		<Interfaces>
+			<Interface value="AXI4">
+			</Interface>
+		</Interfaces>
+	</IP>
+	<IP>
+		<VLNV value="xilinx.com:user:control_mp1:1.0">
+		</VLNV>
+		<DisplayName value="control_mp1_v1.0">
+		</DisplayName>
+		<Description value="AXI slave to drive control bits for MP1">
+		</Description>
+		<CoreRevision value="5">
+		</CoreRevision>
+		<ComponentPath value="control_mp1_1.0/component.xml">
+		</ComponentPath>
+		<Families>
+			<Family name="artix7">
+				<Part status="Pre-Production" name="ALL">
+				</Part>
+			</Family>
+		</Families>
+		<Taxonomies>
+			<Taxonomy value="AXI_Peripheral">
+			</Taxonomy>
+		</Taxonomies>
+		<Interfaces>
+			<Interface value="AXI4">
+			</Interface>
+		</Interfaces>
+	</IP>
+	<IP>
+		<VLNV value="xilinx.com:user:control:1">
+		</VLNV>
+		<DisplayName value="control_v1">
+		</DisplayName>
+		<Description value="My new AXI IP">
+		</Description>
+		<CoreRevision value="6">
+		</CoreRevision>
+		<ComponentPath value="control_v1/ip_repo/control_1/component.xml">
+		</ComponentPath>
+		<Families>
+			<Family name="artix7">
+				<Part status="Pre-Production" name="ALL">
+				</Part>
+			</Family>
+		</Families>
+		<Taxonomies>
+			<Taxonomy value="AXI_Peripheral">
+			</Taxonomy>
+		</Taxonomies>
+		<Interfaces>
+			<Interface value="AXI4">
+			</Interface>
+		</Interfaces>
+	</IP>
+	<IP>
+		<VLNV value="xilinx.com:user:counter:1.0">
+		</VLNV>
+		<DisplayName value="counter_v1.0">
+		</DisplayName>
+		<Description value="My new AXI IP">
+		</Description>
+		<CoreRevision value="3">
+		</CoreRevision>
+		<ComponentPath value="IP_for_Testing/ip_repo/counter_1.0/component.xml">
+		</ComponentPath>
+		<Families>
+			<Family name="artix7">
+				<Part status="Pre-Production" name="ALL">
+				</Part>
+			</Family>
+		</Families>
+		<Taxonomies>
+			<Taxonomy value="AXI_Peripheral">
+			</Taxonomy>
+		</Taxonomies>
+		<Interfaces>
+			<Interface value="AXI4">
+			</Interface>
+		</Interfaces>
+	</IP>
+	<IP>
+		<VLNV value="xilinx.com:user:UDP:2">
+		</VLNV>
+		<DisplayName value="UDP_v2">
+		</DisplayName>
+		<Description value="For transfering the data in the real time.">
+		</Description>
+		<CoreRevision value="13">
+		</CoreRevision>
+		<ComponentPath value="Old_Verison/UDP_V2/ip_repo/UDP_2/component.xml">
+		</ComponentPath>
+		<Families>
+			<Family name="artix7">
+				<Part status="Pre-Production" name="ALL">
+				</Part>
+			</Family>
+		</Families>
+		<Taxonomies>
+			<Taxonomy value="AXI_Peripheral">
+			</Taxonomy>
+		</Taxonomies>
+		<Interfaces>
+			<Interface value="AXI4">
+			</Interface>
+		</Interfaces>
+	</IP>
+	<IP>
+		<VLNV value="xilinx.com:user:fsm_saradc:1.0">
+		</VLNV>
+		<DisplayName value="fsm_saradc_v1_0">
+		</DisplayName>
+		<Description value="fsm_saradc_v1_0">
+		</Description>
+		<CoreRevision value="17">
+		</CoreRevision>
+		<ComponentPath value="sardadc_fsm_1/sardadc_fsm_1.srcs/sources_1/imports/18.1/component.xml">
+		</ComponentPath>
+		<Families>
+			<Family name="aartix7">
+				<Part status="Production" name="ALL">
+				</Part>
+			</Family>
+			<Family name="artix7">
+				<Part status="Production" name="ALL">
+				</Part>
+			</Family>
+			<Family name="artix7l">
+				<Part status="Production" name="ALL">
+				</Part>
+			</Family>
+			<Family name="aspartan7">
+				<Part status="Production" name="ALL">
+				</Part>
+			</Family>
+			<Family name="azynq">
+				<Part status="Production" name="ALL">
+				</Part>
+			</Family>
+			<Family name="kintex7">
+				<Part status="Production" name="ALL">
+				</Part>
+			</Family>
+			<Family name="kintex7l">
+				<Part status="Production" name="ALL">
+				</Part>
+			</Family>
+			<Family name="kintexu">
+				<Part status="Production" name="ALL">
+				</Part>
+			</Family>
+			<Family name="kintexuplus">
+				<Part status="Production" name="ALL">
+				</Part>
+			</Family>
+			<Family name="qartix7">
+				<Part status="Production" name="ALL">
+				</Part>
+			</Family>
+			<Family name="qkintex7">
+				<Part status="Production" name="ALL">
+				</Part>
+			</Family>
+			<Family name="qkintex7l">
+				<Part status="Production" name="ALL">
+				</Part>
+			</Family>
+			<Family name="qvirtex7">
+				<Part status="Production" name="ALL">
+				</Part>
+			</Family>
+			<Family name="qzynq">
+				<Part status="Production" name="ALL">
+				</Part>
+			</Family>
+			<Family name="spartan7">
+				<Part status="Production" name="ALL">
+				</Part>
+			</Family>
+			<Family name="virtex7">
+				<Part status="Production" name="ALL">
+				</Part>
+			</Family>
+			<Family name="virtexu">
+				<Part status="Production" name="ALL">
+				</Part>
+			</Family>
+			<Family name="virtexuplus">
+				<Part status="Production" name="ALL">
+				</Part>
+			</Family>
+			<Family name="zynq">
+				<Part status="Production" name="ALL">
+				</Part>
+			</Family>
+			<Family name="zynquplus">
+				<Part status="Production" name="ALL">
+				</Part>
+			</Family>
+		</Families>
+		<Taxonomies>
+			<Taxonomy value="/UserIP">
+			</Taxonomy>
+		</Taxonomies>
+	</IP>
+	<IP>
+		<VLNV value="xilinx.com:user:UDP:3">
+		</VLNV>
+		<DisplayName value="UDP_V3">
+		</DisplayName>
+		<Description value="The UDP block transfer the data to the computer">
+		</Description>
+		<CoreRevision value="2">
+		</CoreRevision>
+		<ComponentPath value="UDP_V3/ip_repo/UDP_3/component.xml">
+		</ComponentPath>
+		<Families>
+			<Family name="artix7">
+				<Part status="Pre-Production" name="ALL">
+				</Part>
+			</Family>
+		</Families>
+		<Taxonomies>
+			<Taxonomy value="AXI_Peripheral">
+			</Taxonomy>
+		</Taxonomies>
+		<Interfaces>
+			<Interface value="AXI4">
+			</Interface>
+		</Interfaces>
+	</IP>
+</Index>
+

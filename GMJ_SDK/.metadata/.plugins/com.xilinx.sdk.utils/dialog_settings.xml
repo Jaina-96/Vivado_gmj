@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="D:\GMJ_SDK\GMJ_SDK_1\Debug" key="fpga_elf_mem_selection"/>
+	<item value="D:\GMJ_SDK\design_1_wrapper_hw_platform_2" key="program_fpga_view_bit_bmm_browse_key"/>
+	<item value="D:\GMJ_SDK\design_1_wrapper_hw_platform_2" key="debug_files_selection"/>
+	<item value="D:\GMJ_SDK\design_1_wrapper_hw_platform_2" key="last_stored_selection"/>
+</section>

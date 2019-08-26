@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon May  6 18:41:12 2019
+# Process ID: 25524
+# Current directory: C:/Users/jaina/Downloads/MENG Proj/ICGTRMP1/IPs/IP_for_Testing/ip_repo
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26428 C:\Users\jaina\Downloads\MENG Proj\ICGTRMP1\IPs\IP_for_Testing\ip_repo\edit_counter_v1_0.xpr
+# Log file: C:/Users/jaina/Downloads/MENG Proj/ICGTRMP1/IPs/IP_for_Testing/ip_repo/vivado.log
+# Journal file: C:/Users/jaina/Downloads/MENG Proj/ICGTRMP1/IPs/IP_for_Testing/ip_repo\vivado.jou
+#-----------------------------------------------------------
+Sourcing tcl script 'C:/Users/jaina/AppData/Roaming/Xilinx/Vivado/Vivado_init.tcl'
+0 Beta devices matching pattern found, 0 enabled.
+WARNING: [Board 49-91] Board repository path '{C:UsersjainaDownloadsivado-boards-masterivado-boards-master
+ewoard_files}' does not exist, it will not be used to search board files.
+WARNING: [Board 49-91] Board repository path '{C:UsersjainaDownloadsivado-boards-masterivado-boards-master
+ewoard_files}' does not exist, it will not be used to search board files.
+start_gui
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon May  6 18:41:59 2019...

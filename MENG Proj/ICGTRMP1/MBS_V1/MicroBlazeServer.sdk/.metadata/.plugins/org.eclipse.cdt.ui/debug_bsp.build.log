@@ -1,0 +1,6 @@
+12:36:48 **** Build of project debug_bsp ****
+make -k all 
+make: *** No rule to make target `all'.
+
+12:36:48 Build Finished (took 362ms)
+

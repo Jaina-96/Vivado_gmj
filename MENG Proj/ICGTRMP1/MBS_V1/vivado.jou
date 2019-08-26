@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue Apr 16 13:29:45 2019
+# Process ID: 4984
+# Current directory: H:/ICGTRMP1/MBS_V1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent33984 H:\ICGTRMP1\MBS_V1\MicroBlazeServer.xpr
+# Log file: H:/ICGTRMP1/MBS_V1/vivado.log
+# Journal file: H:/ICGTRMP1/MBS_V1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project H:/ICGTRMP1/MBS_V1/MicroBlazeServer.xpr
+open_bd_design {H:/ICGTRMP1/MBS_V1/MicroBlazeServer.srcs/sources_1/bd/design_1/design_1.bd}
+update_compile_order -fileset sources_1
+launch_sdk -workspace H:/ICGTRMP1/MBS_V1/MicroBlazeServer.sdk -hwspec H:/ICGTRMP1/MBS_V1/MicroBlazeServer.sdk/design_1_wrapper.hdf

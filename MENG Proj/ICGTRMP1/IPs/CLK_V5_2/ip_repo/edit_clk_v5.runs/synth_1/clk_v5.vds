@@ -1,0 +1,529 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon Oct  8 17:58:50 2018
+# Process ID: 23960
+# Current directory: C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/edit_clk_v5.runs/synth_1
+# Command line: vivado.exe -log clk_v5.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source clk_v5.tcl
+# Log file: C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/edit_clk_v5.runs/synth_1/clk_v5.vds
+# Journal file: C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/edit_clk_v5.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source clk_v5.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 322.805 ; gain = 84.953
+Command: synth_design -top clk_v5 -part xc7a200tsbg484-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 18988 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 430.574 ; gain = 95.887
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'clk_v5' [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/hdl/clk_v5.v:4]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'clk_v5_S00_AXI' [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/hdl/clk_v5_S00_AXI.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 8 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 5 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'full_half_condition' [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/full_half_condition.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'full_half_condition' (1#1) [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/full_half_condition.v:3]
+INFO: [Synth 8-6157] synthesizing module 'UDP_ref' [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/UDP_ref.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'UDP_ref' (2#1) [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/UDP_ref.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clear' [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/clear.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'clear' (3#1) [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/clear.v:3]
+INFO: [Synth 8-6157] synthesizing module 'width_and_phase' [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/width_and_phase.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'width_and_phase' (4#1) [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/width_and_phase.v:3]
+INFO: [Synth 8-6157] synthesizing module 'comparator_500MHz' [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/comparator_500MHz.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'comparator_500MHz' (5#1) [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/comparator_500MHz.v:3]
+INFO: [Synth 8-6157] synthesizing module 'comparator_500MHz_inv' [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/comparator_500MHz_inv.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'comparator_500MHz_inv' (6#1) [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/comparator_500MHz_inv.v:23]
+INFO: [Synth 8-6157] synthesizing module 'DFFR_buffer_out' [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/DFFR_buffer_out.v:23]
+WARNING: [Synth 8-5974] attribute "use_dsp48" has been deprecated, please use "use_dsp" instead 
+INFO: [Synth 8-6155] done synthesizing module 'DFFR_buffer_out' (7#1) [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/DFFR_buffer_out.v:23]
+INFO: [Synth 8-6155] done synthesizing module 'clk_v5_S00_AXI' (8#1) [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/hdl/clk_v5_S00_AXI.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'clk_v5' (9#1) [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/hdl/clk_v5.v:4]
+WARNING: [Synth 8-3331] design clk_v5_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design clk_v5_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design clk_v5_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design clk_v5_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design clk_v5_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design clk_v5_S00_AXI has unconnected port S_AXI_ARPROT[0]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 503.855 ; gain = 169.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 503.855 ; gain = 169.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a200tsbg484-1
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a200tsbg484-1
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 503.855 ; gain = 169.168
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:27 ; elapsed = 00:00:25 . Memory (MB): peak = 537.859 ; gain = 203.172
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 89    
+	               16 Bit    Registers := 16    
+	                8 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 41    
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 50    
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module full_half_condition 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 2     
+Module UDP_ref 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module clear 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module width_and_phase 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 4     
+	               16 Bit    Registers := 2     
+Module comparator_500MHz 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module comparator_500MHz_inv 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module DFFR_buffer_out 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 24    
+Module clk_v5_S00_AXI 
+Detailed RTL Component Info : 
++---Registers : 
+	               32 Bit    Registers := 51    
+	                8 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 6     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 50    
+	   2 Input      1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 740 (col length:100)
+BRAMs: 730 (col length: RAMB18 100 RAMB36 50)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+DSP Report: Generating DSP condition_10, operation Mode is: C+A*B.
+DSP Report: operator condition_10 is absorbed into DSP condition_10.
+DSP Report: operator condition_11 is absorbed into DSP condition_10.
+DSP Report: Generating DSP condition_10, operation Mode is: C+A*B.
+DSP Report: operator condition_10 is absorbed into DSP condition_10.
+DSP Report: operator condition_11 is absorbed into DSP condition_10.
+DSP Report: Generating DSP condition_10, operation Mode is: C+A*B.
+DSP Report: operator condition_10 is absorbed into DSP condition_10.
+DSP Report: operator condition_11 is absorbed into DSP condition_10.
+DSP Report: Generating DSP buffer_upper0, operation Mode is: C+(A:0x0):B.
+DSP Report: operator buffer_upper0 is absorbed into DSP buffer_upper0.
+DSP Report: Generating DSP condition_upper_10, operation Mode is: A*B.
+DSP Report: operator condition_upper_10 is absorbed into DSP condition_upper_10.
+DSP Report: Generating DSP condition_lower_10, operation Mode is: A*B.
+DSP Report: operator condition_lower_10 is absorbed into DSP condition_lower_10.
+DSP Report: Generating DSP buffer_upper0, operation Mode is: C+(A:0x0):B.
+DSP Report: operator buffer_upper0 is absorbed into DSP buffer_upper0.
+DSP Report: Generating DSP condition_upper_10, operation Mode is: A*B.
+DSP Report: operator condition_upper_10 is absorbed into DSP condition_upper_10.
+DSP Report: Generating DSP condition_lower_10, operation Mode is: A*B.
+DSP Report: operator condition_lower_10 is absorbed into DSP condition_lower_10.
+DSP Report: Generating DSP buffer_upper0, operation Mode is: C+(A:0x0):B.
+DSP Report: operator buffer_upper0 is absorbed into DSP buffer_upper0.
+DSP Report: Generating DSP condition_upper_10, operation Mode is: A*B.
+DSP Report: operator condition_upper_10 is absorbed into DSP condition_upper_10.
+DSP Report: Generating DSP condition_lower_10, operation Mode is: A*B.
+DSP Report: operator condition_lower_10 is absorbed into DSP condition_lower_10.
+DSP Report: Generating DSP buffer_upper0, operation Mode is: C+(A:0x0):B.
+DSP Report: operator buffer_upper0 is absorbed into DSP buffer_upper0.
+DSP Report: Generating DSP condition_upper_10, operation Mode is: A*B.
+DSP Report: operator condition_upper_10 is absorbed into DSP condition_upper_10.
+DSP Report: Generating DSP condition_lower_10, operation Mode is: A*B.
+DSP Report: operator condition_lower_10 is absorbed into DSP condition_lower_10.
+DSP Report: Generating DSP buffer_upper0, operation Mode is: C+(A:0x0):B.
+DSP Report: operator buffer_upper0 is absorbed into DSP buffer_upper0.
+DSP Report: Generating DSP condition_upper_10, operation Mode is: A*B.
+DSP Report: operator condition_upper_10 is absorbed into DSP condition_upper_10.
+DSP Report: Generating DSP condition_lower_10, operation Mode is: A*B.
+DSP Report: operator condition_lower_10 is absorbed into DSP condition_lower_10.
+DSP Report: Generating DSP buffer_upper0, operation Mode is: C+(A:0x0):B.
+DSP Report: operator buffer_upper0 is absorbed into DSP buffer_upper0.
+DSP Report: Generating DSP condition_upper_10, operation Mode is: A*B.
+DSP Report: operator condition_upper_10 is absorbed into DSP condition_upper_10.
+DSP Report: Generating DSP condition_lower_10, operation Mode is: A*B.
+DSP Report: operator condition_lower_10 is absorbed into DSP condition_lower_10.
+DSP Report: Generating DSP buffer_upper0, operation Mode is: C+(A:0x0):B.
+DSP Report: operator buffer_upper0 is absorbed into DSP buffer_upper0.
+DSP Report: Generating DSP condition_upper_10, operation Mode is: A*B.
+DSP Report: operator condition_upper_10 is absorbed into DSP condition_upper_10.
+DSP Report: Generating DSP condition_lower_10, operation Mode is: A*B.
+DSP Report: operator condition_lower_10 is absorbed into DSP condition_lower_10.
+DSP Report: Generating DSP buffer_upper0, operation Mode is: C+(A:0x0):B.
+DSP Report: operator buffer_upper0 is absorbed into DSP buffer_upper0.
+DSP Report: Generating DSP condition_upper_10, operation Mode is: A*B.
+DSP Report: operator condition_upper_10 is absorbed into DSP condition_upper_10.
+DSP Report: Generating DSP condition_lower_10, operation Mode is: A*B.
+DSP Report: operator condition_lower_10 is absorbed into DSP condition_lower_10.
+WARNING: [Synth 8-3331] design clk_v5_S00_AXI has unconnected port S_AXI_AWPROT[2]
+WARNING: [Synth 8-3331] design clk_v5_S00_AXI has unconnected port S_AXI_AWPROT[1]
+WARNING: [Synth 8-3331] design clk_v5_S00_AXI has unconnected port S_AXI_AWPROT[0]
+WARNING: [Synth 8-3331] design clk_v5_S00_AXI has unconnected port S_AXI_ARPROT[2]
+WARNING: [Synth 8-3331] design clk_v5_S00_AXI has unconnected port S_AXI_ARPROT[1]
+WARNING: [Synth 8-3331] design clk_v5_S00_AXI has unconnected port S_AXI_ARPROT[0]
+INFO: [Synth 8-3886] merging instance 'width_and_phase:/buffer_low_reg[15]' (FDC) to 'width_and_phase:/condition_lower_1_reg[31]'
+INFO: [Synth 8-3886] merging instance 'width_and_phase:/condition_lower_1_reg[31]' (FDC) to 'width_and_phase:/condition_upper_1_reg[31]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (width_and_phase:/\condition_upper_1_reg[31] )
+INFO: [Synth 8-3886] merging instance 'width_and_phase:/condition_upper_reg[31]' (FDCE) to 'width_and_phase:/condition_lower_reg[31]'
+INFO: [Synth 8-3886] merging instance 'clk_v5_S00_AXI_inst/axi_rresp_reg[0]' (FDRE) to 'clk_v5_S00_AXI_inst/axi_rresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (clk_v5_S00_AXI_inst/\axi_rresp_reg[1] )
+INFO: [Synth 8-3886] merging instance 'clk_v5_S00_AXI_inst/axi_bresp_reg[0]' (FDRE) to 'clk_v5_S00_AXI_inst/axi_bresp_reg[1]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (clk_v5_S00_AXI_inst/\axi_bresp_reg[1] )
+WARNING: [Synth 8-3332] Sequential element (condition_upper_1_reg[31]) is unused and will be removed from module width_and_phase.
+WARNING: [Synth 8-3332] Sequential element (condition_lower_reg[31]) is unused and will be removed from module width_and_phase.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[1]) is unused and will be removed from module clk_v5_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (axi_awaddr_reg[0]) is unused and will be removed from module clk_v5_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (axi_bresp_reg[1]) is unused and will be removed from module clk_v5_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[1]) is unused and will be removed from module clk_v5_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (axi_araddr_reg[0]) is unused and will be removed from module clk_v5_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (axi_rresp_reg[1]) is unused and will be removed from module clk_v5_S00_AXI.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 732.512 ; gain = 397.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping  Report (see note below)
++--------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name         | DSP Mapping | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++--------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|full_half_condition | C+A*B       | 15     | 15     | 32     | -      | 32     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|full_half_condition | C+A*B       | 15     | 15     | 32     | -      | 32     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|full_half_condition | C+A*B       | 15     | 15     | 32     | -      | 32     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|width_and_phase     | C+(A:0x0):B | 30     | 15     | 15     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|width_and_phase     | A*B         | 16     | 15     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|width_and_phase     | A*B         | 16     | 15     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|width_and_phase     | C+(A:0x0):B | 30     | 15     | 15     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|width_and_phase     | A*B         | 16     | 15     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|width_and_phase     | A*B         | 16     | 15     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|width_and_phase     | C+(A:0x0):B | 30     | 15     | 15     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|width_and_phase     | A*B         | 16     | 15     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|width_and_phase     | A*B         | 16     | 15     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|width_and_phase     | C+(A:0x0):B | 30     | 15     | 15     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|width_and_phase     | A*B         | 16     | 15     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|width_and_phase     | A*B         | 16     | 15     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|width_and_phase     | C+(A:0x0):B | 30     | 15     | 15     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|width_and_phase     | A*B         | 16     | 15     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|width_and_phase     | A*B         | 16     | 15     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|width_and_phase     | C+(A:0x0):B | 30     | 15     | 15     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|width_and_phase     | A*B         | 16     | 15     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|width_and_phase     | A*B         | 16     | 15     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|width_and_phase     | C+(A:0x0):B | 30     | 15     | 15     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|width_and_phase     | A*B         | 16     | 15     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|width_and_phase     | A*B         | 16     | 15     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|width_and_phase     | C+(A:0x0):B | 30     | 15     | 15     | -      | 16     | 0    | 0    | 0    | -    | -     | 0    | 0    | 
+|width_and_phase     | A*B         | 16     | 15     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|width_and_phase     | A*B         | 16     | 15     | -      | -      | 31     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++--------------------+-------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:48 ; elapsed = 00:00:48 . Memory (MB): peak = 732.512 ; gain = 397.824
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/full_half_condition.v:15]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/full_half_condition.v:15]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/full_half_condition.v:15]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/width_and_phase.v:22]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/width_and_phase.v:20]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/width_and_phase.v:19]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/width_and_phase.v:22]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/width_and_phase.v:20]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/width_and_phase.v:19]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/width_and_phase.v:22]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/width_and_phase.v:20]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/width_and_phase.v:19]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/width_and_phase.v:22]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/width_and_phase.v:20]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/width_and_phase.v:19]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/width_and_phase.v:22]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/width_and_phase.v:20]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/width_and_phase.v:19]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/width_and_phase.v:22]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/width_and_phase.v:20]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/width_and_phase.v:19]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/width_and_phase.v:22]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/width_and_phase.v:20]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/width_and_phase.v:19]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/width_and_phase.v:22]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/width_and_phase.v:20]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/width_and_phase.v:19]
+INFO: [Synth 8-3886] merging instance 'i_5673' (FDC) to 'i_5722'
+INFO: [Synth 8-3886] merging instance 'i_5592' (FDC) to 'i_5722'
+INFO: [Synth 8-3886] merging instance 'i_5511' (FDC) to 'i_5722'
+INFO: [Synth 8-3886] merging instance 'i_5430' (FDC) to 'i_5722'
+INFO: [Synth 8-3886] merging instance 'i_5349' (FDC) to 'i_5722'
+INFO: [Synth 8-3886] merging instance 'i_5268' (FDC) to 'i_5722'
+INFO: [Synth 8-3886] merging instance 'i_5187' (FDC) to 'i_5722'
+INFO: [Synth 8-3886] merging instance 'i_5106' (FDC) to 'i_5722'
+INFO: [Synth 8-3886] merging instance 'i_5690' (FDC) to 'i_5722'
+INFO: [Synth 8-3886] merging instance 'i_5722' (FDC) to 'i_5641'
+INFO: [Synth 8-3886] merging instance 'i_5609' (FDC) to 'i_5641'
+INFO: [Synth 8-3886] merging instance 'i_5641' (FDC) to 'i_5560'
+INFO: [Synth 8-3886] merging instance 'i_5528' (FDC) to 'i_5560'
+INFO: [Synth 8-3886] merging instance 'i_5560' (FDC) to 'i_5479'
+INFO: [Synth 8-3886] merging instance 'i_5447' (FDC) to 'i_5479'
+INFO: [Synth 8-3886] merging instance 'i_5479' (FDC) to 'i_5398'
+INFO: [Synth 8-3886] merging instance 'i_5366' (FDC) to 'i_5398'
+INFO: [Synth 8-3886] merging instance 'i_5398' (FDC) to 'i_5317'
+INFO: [Synth 8-3886] merging instance 'i_5285' (FDC) to 'i_5317'
+INFO: [Synth 8-3886] merging instance 'i_5317' (FDC) to 'i_5236'
+INFO: [Synth 8-3886] merging instance 'i_5204' (FDC) to 'i_5236'
+INFO: [Synth 8-3886] merging instance 'i_5236' (FDC) to 'i_5155'
+INFO: [Synth 8-3886] merging instance 'i_5123' (FDC) to 'i_5155'
+INFO: [Synth 8-3886] merging instance 'i_5155' (FDC) to 'i_5073'
+INFO: [Synth 8-3886] merging instance 'i_5073' (FDC) to 'i_5040'
+INFO: [Synth 8-3886] merging instance 'i_5040' (FDC) to 'i_5007'
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/width_and_phase.v:21]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/width_and_phase.v:21]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/width_and_phase.v:21]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/width_and_phase.v:21]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/width_and_phase.v:21]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/width_and_phase.v:21]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/width_and_phase.v:21]
+INFO: [Synth 8-5844] Detected registers with asynchronous reset at DSP/BRAM block boundary. Consider using synchronous reset for optimal packing [C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/clk_5/src/width_and_phase.v:21]
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:51 ; elapsed = 00:00:51 . Memory (MB): peak = 732.512 ; gain = 397.824
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:54 ; elapsed = 00:00:54 . Memory (MB): peak = 732.512 ; gain = 397.824
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:54 ; elapsed = 00:00:54 . Memory (MB): peak = 732.512 ; gain = 397.824
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:54 ; elapsed = 00:00:55 . Memory (MB): peak = 732.512 ; gain = 397.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:54 ; elapsed = 00:00:55 . Memory (MB): peak = 732.512 ; gain = 397.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:54 ; elapsed = 00:00:55 . Memory (MB): peak = 732.512 ; gain = 397.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:54 ; elapsed = 00:00:55 . Memory (MB): peak = 732.512 ; gain = 397.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Static Shift Register Report:
++------------+---------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|Module Name | RTL Name                                    | Length | Width | Reset Signal | Pull out first Reg | Pull out last Reg | SRL16E | SRLC32E | 
++------------+---------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+|clk_v5      | clk_v5_S00_AXI_inst/outBuffer/clk_p_reg     | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|clk_v5      | clk_v5_S00_AXI_inst/outBuffer/clk_short_reg | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|clk_v5      | clk_v5_S00_AXI_inst/outBuffer/clk_d_reg     | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|clk_v5      | clk_v5_S00_AXI_inst/outBuffer/RST_reg       | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
+|clk_v5      | clk_v5_S00_AXI_inst/outBuffer/STIM_reg      | 4      | 1     | YES          | NO                 | YES               | 1      | 0       | 
++------------+---------------------------------------------+--------+-------+--------------+--------------------+-------------------+--------+---------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     3|
+|2     |CARRY4  |   131|
+|3     |DSP48E1 |    27|
+|4     |LUT1    |     1|
+|5     |LUT2    |   742|
+|6     |LUT3    |    49|
+|7     |LUT4    |   707|
+|8     |LUT5    |   193|
+|9     |LUT6    |   674|
+|10    |MUXF7   |   192|
+|11    |MUXF8   |    96|
+|12    |SRL16E  |     5|
+|13    |FDCE    |   719|
+|14    |FDPE    |    25|
+|15    |FDRE    |  1665|
+|16    |FDSE    |     1|
+|17    |IBUF    |   125|
+|18    |OBUF    |    63|
++------+--------+------+
+
+Report Instance Areas: 
++------+----------------------+------------------------+------+
+|      |Instance              |Module                  |Cells |
++------+----------------------+------------------------+------+
+|1     |top                   |                        |  5418|
+|2     |  clk_v5_S00_AXI_inst |clk_v5_S00_AXI          |  5218|
+|3     |    RST_condi         |width_and_phase         |   280|
+|4     |    STIM_condi        |width_and_phase_0       |   280|
+|5     |    UDP               |full_half_condition     |    89|
+|6     |    clear_large       |clear                   |    15|
+|7     |    clear_samll       |clear_1                 |    15|
+|8     |    clk_d_condi       |width_and_phase_2       |   280|
+|9     |    clk_dac_condi     |width_and_phase_3       |   280|
+|10    |    clk_dac_d_condi   |width_and_phase_4       |   280|
+|11    |    clk_dac_d_gen     |comparator_500MHz_inv   |     1|
+|12    |    clk_dac_gen       |comparator_500MHz_inv_5 |     1|
+|13    |    clk_dac_p_condi   |width_and_phase_6       |   280|
+|14    |    clk_dac_p_gen     |comparator_500MHz_inv_7 |     1|
+|15    |    clk_p_condi       |width_and_phase_8       |   280|
+|16    |    clk_p_gen         |comparator_500MHz       |     1|
+|17    |    clk_short_condi   |width_and_phase_9       |   280|
+|18    |    clk_uudp          |UDP_ref                 |    37|
+|19    |    large_period      |full_half_condition_10  |    89|
+|20    |    outBuffer         |DFFR_buffer_out         |    31|
+|21    |    small_period      |full_half_condition_11  |    89|
++------+----------------------+------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:54 ; elapsed = 00:00:55 . Memory (MB): peak = 732.512 ; gain = 397.824
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 21 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:54 ; elapsed = 00:00:55 . Memory (MB): peak = 732.512 ; gain = 397.824
+Synthesis Optimization Complete : Time (s): cpu = 00:00:54 ; elapsed = 00:00:55 . Memory (MB): peak = 732.512 ; gain = 397.824
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 571 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+96 Infos, 21 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:06 ; elapsed = 00:01:09 . Memory (MB): peak = 796.887 ; gain = 474.082
+INFO: [Common 17-1381] The checkpoint 'C:/Users/xujia/OneDrive/Surface_Book/Project/ICGTRMP1_Testing/ICGTRMP1/IPs/CLK_V5/ip_repo/edit_clk_v5.runs/synth_1/clk_v5.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file clk_v5_utilization_synth.rpt -pb clk_v5_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.309 . Memory (MB): peak = 796.887 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Oct  8 18:00:26 2018...

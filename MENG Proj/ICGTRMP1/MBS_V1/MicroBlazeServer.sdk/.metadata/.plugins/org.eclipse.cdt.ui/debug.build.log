@@ -1,0 +1,20 @@
+15:46:32 **** Auto Build of configuration Debug for project debug ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../debug_bsp/microblaze_0/include -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: debug.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -L../../debug_bsp/microblaze_0/lib -mlittle-endian -mcpu=v10.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "debug.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+./src/helloworld.o: In function `main':
+D:\Users\khanm\ICGTRMP1\MBS_V1\MicroBlazeServer.sdk\debug\Debug/../src/helloworld.c:152: undefined reference to `xil_printf'
+./src/platform.o: In function `enable_caches':
+D:\Users\khanm\ICGTRMP1\MBS_V1\MicroBlazeServer.sdk\debug\Debug/../src/platform.c:79: undefined reference to `microblaze_enable_icache'
+D:\Users\khanm\ICGTRMP1\MBS_V1\MicroBlazeServer.sdk\debug\Debug/../src/platform.c:79: undefined reference to `microblaze_enable_dcache'
+collect2.exe: error: ld returned 1 exit status
+make: *** [debug.elf] Error 1
+
+15:46:33 Build Finished (took 661ms)
+
